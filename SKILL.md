@@ -6,6 +6,11 @@ name: xhs-rival
 description: "小红薯竞品监控数据源（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.2
+display_name: "小红薯竞品监控｜对标账号·笔记数据·评论口碑·爆款动向"
+display_name_en: "Rednote Competitor Monitor"
+description_zh: "小红薯竞品监控数据源（只读）：对标账号笔记列表与互动数据（可只取账号数据）、关键词搜笔记、笔记详情、评论舆情、粉丝获赞收藏；支持综合/最新/最多点赞/最多评论/最多收藏排序与类型、时间、数量多维筛选，全部以结构化 JSON 输出供 AI 直接对比分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 40/30/20（详情无条数限制），超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于对标账号跟踪、笔记数据对比、评论口碑监控、爆款动向盘点与选题差异化。"
+description_en: "Read-only Rednote (Xiaohongshu) competitor-monitoring data source: benchmark-account note lists and engagement stats (account-only mode supported), keyword note search, note details, comment sentiment mining, and follower/like/collect insights. Supports comprehensive/latest/most-liked/most-commented/most-collected sorting plus type, time-window, and count filters; all results are structured JSON ready for direct comparative analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/notes/comments at 40/30/20 (details unlimited), returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for benchmark-account tracking, note data comparison, comment reputation monitoring, viral-note moves, and differentiated topic selection."
+author: "新郑市怪奇信息技术工作室"
 homepage: https://www.guaikei.com
 metadata:
   openclaw:
